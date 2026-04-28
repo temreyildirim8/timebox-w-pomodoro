@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/timebox-w-pomodoro/sw.js', { scope: '/timebox-w-pomodoro/' })})}
